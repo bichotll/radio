@@ -3,7 +3,7 @@ var React = window.React = require('react'),
     SongList = require("./ui/SongList"),
     SongView = require("./ui/SongView"),
     mountNode = document.getElementById("app");
-import { Router, Route, IndexRoute, IndexLink, Link } from 'react-router';
+import { Router, Route, IndexRedirect, IndexLink, Link, hashHistory } from 'react-router';
 
 var App = React.createClass({
     render(){
@@ -15,7 +15,7 @@ var App = React.createClass({
 
                             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul className="nav navbar-nav">
-                                    <li><IndexLink to="/" activeClassName="active" >Home</IndexLink></li>
+                                    <li><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
                                 </ul>
                             </div>
 
@@ -32,9 +32,10 @@ var App = React.createClass({
 });
 
 ReactDOM.render((
-    <Router>
+    <Router history={hashHistory}>
         <Route path="/" component={App}>
-            <IndexRoute component={SongList}/>
+            <IndexRedirect to="songs/featured" component={SongList}/>
+            <Route path="songs/featured" component={SongList}/>
             <Route path="songs/:id" component={SongView}/>
         </Route>
     </Router>

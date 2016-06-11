@@ -15,7 +15,7 @@ export default React.createClass({
 
     render: function () {
         return (
-            <div>
+            <div class="song-view">
                 <h1>Song view</h1>
             </div>
         );
