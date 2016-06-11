@@ -16,6 +16,6 @@ export default new function () {
      * @return promise
      */
     this.getSong = function (id) {
-        return $.get(radioConfig + 'songs/' + id);
+        return $.get(radioConfig.apiUrl + 'songs/' + id);
     };
 };

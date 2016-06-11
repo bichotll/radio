@@ -12,6 +12,10 @@ $icon-font-path: "../fonts/";
 body {
     padding-top: 20px;
     padding-bottom: 20px;
+
+    iframe{
+        border: 0;
+    }
 }
 #content{
     padding-top: 25px;
@@ -43,6 +47,7 @@ body {
             font-size: 25px;
             opacity: 0.6;
             transition: all 0.5s;
+            cursor: pointer;
             &:hover{
                 transform: scale(1.3);
             }
