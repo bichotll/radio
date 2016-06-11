@@ -1,0 +1,175 @@
+{
+    "songs": [
+        {
+            "id": 3659,
+            "youtube_id": "XmSdTa9kaiQ",
+            "title": "With or Without You",
+            "status": "Processed",
+            "duration": 291,
+            "chords": [
+                "D",
+                "A",
+                "Bm",
+                "G"
+            ]
+        },
+        {
+            "id": 890505,
+            "youtube_id": "cuqZPx0H7a0",
+            "title": "U2 - Song For Someone",
+            "status": "Processed",
+            "duration": 538,
+            "chords": [
+                "B",
+                "E",
+                "F#",
+                "G#m",
+                "C",
+                "C#m",
+                "G"
+            ]
+        },
+        {
+            "id": 3661,
+            "youtube_id": "co6WMzDOh1o",
+            "title": "Beautiful Day",
+            "status": "Processed",
+            "duration": 251,
+            "chords": [
+                "A",
+                "D",
+                "G",
+                "Em",
+                "Bm",
+                "F#m"
+            ]
+        },
+        {
+            "id": 763135,
+            "youtube_id": "iYVEik7Lvc4",
+            "title": "U2 - Every Breaking Wave",
+            "status": "Processed",
+            "duration": 279,
+            "chords": [
+                "B",
+                "E",
+                "A",
+                "C#m",
+                "F#m"
+            ]
+        },
+        {
+            "id": 17419,
+            "youtube_id": "XC3ahd6Di3M",
+            "title": "U2 - Ordinary Love (From Mandela OST) Lyric Video",
+            "status": "Processed",
+            "duration": 219,
+            "chords": [
+                "C#m",
+                "B",
+                "F#",
+                "G#m",
+                "E",
+                "A"
+            ]
+        },
+        {
+            "id": 1019493,
+            "youtube_id": "RFjcd_d2PhY",
+            "title": "U2 - Song For Someone (Directed by Matt Mahurin)",
+            "status": "Processed",
+            "duration": 240,
+            "chords": [
+                "E",
+                "B",
+                "F#",
+                "G#m",
+                "C#"
+            ]
+        },
+        {
+            "id": 39646,
+            "youtube_id": "Fum3g86zUPc",
+            "title": "U2 - Ordinary Love (Live on The Tonight Show)",
+            "status": "Processed",
+            "duration": 222,
+            "chords": [
+                "C#m",
+                "G#m",
+                "F#",
+                "B"
+            ]
+        },
+        {
+            "id": 8842,
+            "youtube_id": "ZpDQJnI4OhU",
+            "title": "One",
+            "status": "Processed",
+            "duration": 268,
+            "chords": [
+                "C",
+                "F",
+                "Am",
+                "G",
+                "D"
+            ]
+        },
+        {
+            "id": 29869,
+            "youtube_id": "5WybiA263bw",
+            "title": "U2 - Sweetest Thing",
+            "status": "Processed",
+            "duration": 197,
+            "chords": [
+                "C",
+                "F",
+                "G",
+                "Dm",
+                "Em"
+            ]
+        },
+        {
+            "id": 3667,
+            "youtube_id": "LHcP4MWABGY",
+            "title": "Pride (in the Name of Love)",
+            "status": "Processed",
+            "duration": 247,
+            "chords": [
+                "E",
+                "B",
+                "A",
+                "F#m",
+                "D"
+            ]
+        },
+        {
+            "id": 3663,
+            "youtube_id": "ftjEcrrf7r0",
+            "title": "One",
+            "status": "Processed",
+            "duration": 279,
+            "chords": [
+                "C",
+                "Am",
+                "F",
+                "G",
+                "D"
+            ]
+        },
+        {
+            "id": 3671,
+            "youtube_id": "98W9QuMq-2k",
+            "title": "Vertigo",
+            "status": "Processed",
+            "duration": 191,
+            "chords": [
+                "E",
+                "A",
+                "D",
+                "G",
+                "D#",
+                "B"
+            ]
+        }
+    ]
+}
