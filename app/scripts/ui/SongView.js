@@ -11,8 +11,6 @@ export default React.createClass({
     },
 
     componentWillMount(){
-        console.log('song view', this.props.params.id);
-
         RadioApi.getSong(this.props.params.id).then((songsData)=> {
             this.setState({
                 song: songsData

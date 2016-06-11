@@ -6,7 +6,6 @@ export default new function () {
      * @return promise
      */
     this.getSongs = function() {
-        console.log(radioConfig.apiUrl + 'songs');
         return $.get(radioConfig.apiUrl + 'songs');
     };
 
