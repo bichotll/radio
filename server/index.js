@@ -1,9 +1,12 @@
 var express = require('express');
 var fs = require('fs');
+var cors = require('cors');
 var app = express();
 
-
 //we could use sth like http://apidocjs.com/ or swagger to document the api and get a good html file of it...
+
+//enable cors
+app.use(cors());
 
 /**
  * Songs REST API
