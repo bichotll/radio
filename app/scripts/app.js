@@ -1,45 +1,41 @@
-
 var React = window.React = require('react'),
     ReactDOM = require("react-dom"),
-    Timer = require("./ui/Timer"),
+    SongList = require("./ui/SongList"),
+    SongView = require("./ui/SongView"),
     mountNode = document.getElementById("app");
+import { Router, Route, IndexRoute, IndexLink, Link } from 'react-router';
 
-var TodoList = React.createClass({
-  render: function() {
-    var createItem = function(itemText) {
-      return <li>{itemText}</li>;
-    };
-    return <ul>{this.props.items.map(createItem)}</ul>;
-  }
-});
-var TodoApp = React.createClass({
-  getInitialState: function() {
-    return {items: [], text: ''};
-  },
-  onChange: function(e) {
-    this.setState({text: e.target.value});
-  },
-  handleSubmit: function(e) {
-    e.preventDefault();
-    var nextItems = this.state.items.concat([this.state.text]);
-    var nextText = '';
-    this.setState({items: nextItems, text: nextText});
-  },
-  render: function() {
-    return (
-      <div>
-        <h3>TODO</h3>
-        <TodoList items={this.state.items} />
-        <form onSubmit={this.handleSubmit}>
-          <input onChange={this.onChange} value={this.state.text} />
-          <button>{'Add #' + (this.state.items.length + 1)}</button>
-        </form>
-        <Timer />
-      </div>
-    );
-  }
+var App = React.createClass({
+    render(){
+        return (
+            <div>
+                <div className="header">
+                    <nav className="navbar navbar-default navbar-fixed-top">
+                        <div className="container">
+
+                            <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul className="nav navbar-nav">
+                                    <li><IndexLink to="/" activeClassName="active" >Home</IndexLink></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </nav>
+                </div>
+
+                <div id="content">
+                    {this.props.children}
+                </div>
+            </div>
+        );
+    }
 });
 
-
-ReactDOM.render(<TodoApp />, mountNode);
-
+ReactDOM.render((
+    <Router>
+        <Route path="/" component={App}>
+            <IndexRoute component={SongList}/>
+            <Route path="songs/:id" component={SongView}/>
+        </Route>
+    </Router>
+), mountNode);
