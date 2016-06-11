@@ -10,12 +10,12 @@ var App = React.createClass({
         return (
             <div>
                 <div className="header">
-                    <nav className="navbar navbar-default navbar-fixed-top">
+                    <nav className="navbar navbar-inverse navbar-fixed-top">
                         <div className="container">
 
                             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul className="nav navbar-nav">
-                                    <li><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
+                                    <li><IndexLink to="/" activeClassName="active">myRadioMola</IndexLink></li>
                                 </ul>
                             </div>
 
