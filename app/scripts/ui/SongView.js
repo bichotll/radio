@@ -30,7 +30,7 @@ export default React.createClass({
         }
 
         return (
-            <div class="song-view">
+            <div className="song-view">
                 <h1>{this.state.song.title}</h1>
 
                 <hr/>
