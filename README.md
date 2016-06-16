@@ -129,6 +129,7 @@ This should open Firefox and write some assertions on the terminal.
 
 This are things I'd like to do but could not because the lack of time.
 
+ - A responsive youtube video player (view page).
  - Unit testing for node server.
  - Implement a simple filter for the videos.
  - Create a CI system.
