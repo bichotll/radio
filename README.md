@@ -7,6 +7,19 @@ On the other hand I used front-end tools and packages like React, Browserify, Gu
 I'm more experienced and comfortable with. 
 I did not any Flux system or Immutable library because it's a small app and for time reasons.
 
+##Node version - Important
+
+As some dependencies of the boilerplate used for this project are not fully compatible with the latest versions of
+node, you must run 0.12.12 to avoid any problem.
+
+I recommend to use nvm https://github.com/creationix/nvm. 
+Follow the instructions of the website to install it.
+
+Once this installed, you just have to change the version of this environment with:
+
+```
+nvm install 0.12.12
+```
 
 ##Tasks and organization
 
