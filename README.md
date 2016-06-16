@@ -43,7 +43,7 @@ You will need to install the node packages used for this project.
 npm install
 ```
 
-In case you are reviewing this task, I recommend you to open a new tab to run the server.
+In case you are reviewing this task, I recommend you to open a new terminal tab to run the server.
 
 ```
 node server/
@@ -70,7 +70,7 @@ npm install #can be skipped if already done
 bower install
 ```
 
-Again, opening a new tab is recommended if reviewing.
+Again, opening a new terminal tab is recommended if reviewing.
 
 ```
 gulp watch
@@ -109,7 +109,7 @@ java -jar selenium-server-standalone-{VERSION}.jar
 
 ###Run the tests
 
-As mentioned before, new tab if reviewing.
+As mentioned before, new terminal tab if reviewing.
 
 Finally, to run the tests:
 
