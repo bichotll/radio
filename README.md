@@ -132,8 +132,10 @@ This are things I'd like to do but could not because the lack of time.
  - Unit testing for node server.
  - Implement a simple filter for the videos.
  - Create a CI system.
- - Push the demo in some server.
+ - Push the demo to some server.
  - Give a more close style to the actual app.
+ - Implement ReduxJS/RefluxJS.
+ - Use a environment variable for testing/production...
 
 
 ##Resources and others
