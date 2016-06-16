@@ -9,6 +9,8 @@ I did not any Flux system or Immutable library because it's a small app and for 
 
 ##Node version - Important
 
+This document assumes that you have already installed node. Otherwise, visit nodejs.org for more information.
+
 As some dependencies of the boilerplate used for this project are not fully compatible with the latest versions of
 node, you must run 0.12.12 to avoid any problem.
 
@@ -72,6 +74,7 @@ npm install #can be skipped if already done
 ```
 
 ```
+npm install -g bower
 bower install
 ```
 
