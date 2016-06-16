@@ -49,6 +49,11 @@ In case you are reviewing this task, I recommend you to open a new terminal tab 
 node server/
 ```
 
+If you want to make sure that the server is working you can run a simple curl from the terminal:
+
+```
+curl localhost:3300/songs
+```
 
 ##Client app
 
