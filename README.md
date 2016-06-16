@@ -136,6 +136,7 @@ This are things I'd like to do but could not because the lack of time.
  - Give a more close style to the actual app.
  - Implement ReduxJS/RefluxJS.
  - Use a environment variable for testing/production...
+ - Used webpack with Hot Reload.
 
 
 ##Resources and others
